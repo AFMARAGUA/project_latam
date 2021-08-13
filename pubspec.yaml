@@ -1,0 +1,33 @@
+name: project_latam
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.3
+  provider: ^5.0.0
+  flutter_svg: ^0.22.0
+  equatable: ^2.0.3
+  http: ^0.13.3
+  intl: ^0.17.0
+  flutter_rating_bar: ^4.0.0
+  modal_bottom_sheet: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
